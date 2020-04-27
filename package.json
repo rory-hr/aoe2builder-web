@@ -1,0 +1,40 @@
+{
+  "name": "aoe2builder-web",
+  "version": "1.0.0",
+  "description": "An AoE2 DE game companion app and API for game data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rory-roccio/aoe2builder-web.git"
+  },
+  "keywords": [
+    "aoe",
+    "age of empires",
+    "aoe2"
+  ],
+  "author": "rory-roccio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rory-roccio/aoe2builder-web/issues"
+  },
+  "homepage": "https://github.com/rory-roccio/aoe2builder-web#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0"
+  }
+}
