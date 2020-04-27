@@ -1,0 +1,20 @@
+{
+  "name": "aoe2builder-web",
+  "version": "1.0.0",
+  "description": "An AoE2 DE game companion app and API for game data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rory-roccio/aoe2builder-web.git"
+  },
+  "keywords": ["aoe", "age of empires", "aoe2"],
+  "author": "rory-roccio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rory-roccio/aoe2builder-web/issues"
+  },
+  "homepage": "https://github.com/rory-roccio/aoe2builder-web#readme"
+}
