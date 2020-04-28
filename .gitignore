@@ -1,1 +1,3 @@
 node_modules
+client/dist/app.js
+client/dist/app.js.map
