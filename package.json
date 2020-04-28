@@ -4,7 +4,9 @@
   "description": "An AoE2 DE game companion app and API for game data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w --mode development",
+    "start": "node ./server/index.js"
   },
   "repository": {
     "type": "git",
