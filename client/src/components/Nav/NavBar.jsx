@@ -8,11 +8,10 @@ const Container = styled.div`
   height: 20px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 `;
 
 const Header = styled.h5`
-  color: seashell;
   font-size: 0.5rem;
 `;
 
@@ -25,8 +24,8 @@ export default () => {
   return (
     <Container>
       <ImpossibleBurger />
-      <Divider />
       <Header>AoE2 Builder</Header>
+      <Divider />
       <Divider />
     </Container>
   );
