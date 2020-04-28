@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ImpossibleBurger from './ImpossibleBurger';
 
 const Container = styled.div`
   background-color: #156064;
@@ -15,10 +16,18 @@ const Header = styled.h5`
   font-size: 0.5rem;
 `;
 
+const Divider = styled.div`
+  display: flex;
+  flex: 1;
+`;
+
 export default () => {
   return (
     <Container>
+      <ImpossibleBurger />
+      <Divider />
       <Header>AoE2 Builder</Header>
+      <Divider />
     </Container>
   );
 };
