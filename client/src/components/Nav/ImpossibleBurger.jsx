@@ -5,8 +5,10 @@ const ImpossibleBurger = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 90%;
-  width: 30px;
+  height: 60%;
+  width: 20px;
+  margin-left: .5rem;
+  margin-right: 1rem;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -16,7 +18,8 @@ const ImpossibleBurger = styled.button`
 
 const Line = styled.div`
   background: #fb8f67;
-  width: 24px;
+  border-radius: 30px;
+  width: 20px;
   height: 2px;
 `;
 
